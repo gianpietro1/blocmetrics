@@ -16,8 +16,9 @@
 
 @import 'bootstrap';  
 
-.container-wide {
-  width: 100%;
+.landing {
+  width: 1450px;
+  margin-left: -150px;
   height: 800px;
   background: image-url('metrics.jpg') no-repeat;
   background-size: cover;
@@ -37,4 +38,10 @@
 
 .blackbtn:hover,.blackbtn:focus {
   color: orange;
+}
+
+.msg {
+  float:left;
+  width: 1450px;
+  margin-left: -150px;
 }
